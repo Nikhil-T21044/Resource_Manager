@@ -34,8 +34,8 @@ public class AwsResource {
 	
 	private static Ec2Client getClient() {
 		AwsBasicCredentials awsCreds = AwsBasicCredentials.create(
-				  "AKIASCBZQA4TG2TBLUGP",
-				  "/smjwJ1kKYaV7OzPMCyEWbjrfe4ZwS3vwVlfk0Su");
+				  "ACCESS_KEY",
+				  "SECRET_KEY");
 
 	    Region region = Region.US_EAST_1;
 	    Ec2Client ec2 = Ec2Client.builder()
